@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<camerasystem>
+	<name>IPCamMozRecord - A Simple CCTV Recording System</name>
+	<webport>8008</webport>
+	<video>
+		<width>1024</width>
+		<height>768</height>
+		<storage>/storage</storage>
+		<minfreespace>10</minfreespace>
+		<length>15</length>
+	</video>
+	<cameras>
+		<camera>
+			<name>camera1</name>
+			<fullname>Camera Somewhere 1</fullname>
+			<source>127.0.0.1/image</source>
+		</camera>
+		<camera>
+			<name>camera2</name>
+			<fullname>Camera Somewhere 2</fullname>
+			<source>127.0.0.1/image</source>
+		</camera>
+	</cameras>
+</camerasystem>
